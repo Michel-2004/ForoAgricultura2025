@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FAF3E0;
+  color: #666666;
+}
+
+/* Contenedor principal para centrar contenido */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+/* Caja de login estilo tarjeta */
+.login-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Título de inicio de sesión */
+.iniciar {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #388e3c;
+  margin-bottom: 2rem;
+}
+
+/* Inputs con icono */
+.icon-input-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #666666;
+  font-size: 1.2em;
+}
+
+.icon-input {
+  width: 100%;
+  padding: 10px 10px 10px 36px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
+
+.icon-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Checkbox Recuérdame */
+.p-field-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.remember-me-label {
+  margin-left: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: #666666;
+}
+
+/* Botón */
+.p-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.p-button:hover {
+  background-color: #388e3c;
+}
+
+/* Registro */
+.register-link {
+  margin-top: 1.5rem;
+}
+
+.register-link p {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.register-link a {
+  color: #4CAF50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  color: #666666;
+  font-size: 0.85rem;
+  text-align: center;
+}

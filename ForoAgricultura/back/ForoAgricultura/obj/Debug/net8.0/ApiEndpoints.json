@@ -1,0 +1,185 @@
+[
+  {
+    "ContainingType": "Ecommerce.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ForoAgricultura.Models.Dtos.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ForoAgricultura.Models.Dtos.LoginResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ecommerce.Controllers.AuthController",
+    "Method": "SignUp",
+    "RelativePath": "api/Auth/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ForoAgricultura.Models.Dtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ForoAgricultura.Models.Dtos.RegisterDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.ComentaryController",
+    "Method": "GetAllComentary",
+    "RelativePath": "api/Comentary/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.ComentaryController",
+    "Method": "Post",
+    "RelativePath": "api/Comentary/newComentary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ForoAgricultura.Models.Dtos.ComentaryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ForoAgricultura.Models.DataBase.Entities.Comentary",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/User/allUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/deleteUser/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "ModifyUser",
+    "RelativePath": "api/User/modifyUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "ForoAgricultura.Models.Dtos.UserProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "ModifyUserRole",
+    "RelativePath": "api/User/modifyUserRole/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newRole",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForoAgricultura.Models.DataBase.Repositories.Controllers.UserController",
+    "Method": "GetByEmailAsync",
+    "RelativePath": "email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

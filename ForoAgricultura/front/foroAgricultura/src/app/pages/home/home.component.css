@@ -1,0 +1,128 @@
+/* Fuentes y colores base */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FAF3E0;
+  color: #666666;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(120deg, #6FBF73, #388e3c);
+  color: #ffffff;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+/* Enlace de iniciar sesión */
+.login-link {
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link i {
+  margin-right: 8px;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* Formulario de publicación */
+.publicar-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas */
+.publicar-form label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #388e3c;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.comentario-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.comentario-card strong {
+  font-weight: 600;
+  color: #388e3c;
+}
+
+.comentario-card small {
+  color: #888888;
+  font-size: 0.85rem;
+}
+
+/* Cuadro de texto */
+.publicar-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  resize: vertical;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Botón de publicación */
+.publicar-form button {
+  margin-top: 1rem;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.publicar-form button:hover {
+  background-color: #388e3c;
+}

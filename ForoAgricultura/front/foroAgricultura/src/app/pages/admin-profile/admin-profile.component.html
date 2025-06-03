@@ -1,0 +1,67 @@
+<!-- FIRST BLOCK WITH IMAGE AND SLOGAN -->
+<div class="panel-top h-24rem d-flex w-full">
+    <p class="m-auto text-white line-height-4 text-6xl uppercase font-bold">
+        - MI PERFIL (ADMINISTRADOR) -
+    </p>
+</div>
+
+<!-- User Admin Info -->
+<div class="profile-info mt-4 m-auto">
+    <div class="profile-row">
+        <div class="profile-label">Nombre:</div>
+        <div class="profile-input">
+            <input type="text" [value]="user?.name" [readonly]="!isEditing">
+        </div>
+    </div>
+    <div class="profile-row">
+        <div class="profile-label">Correo:</div>
+        <div class="profile-input">
+            <input type="text" [value]="user?.email" [readonly]="!isEditing">
+        </div>
+    </div>
+    <div class="profile-row">
+        <div class="profile-label">Rol:</div>
+        <div class="profile-input">
+            <input type="text" [value]="user?.role" [readonly]="!isEditing">
+        </div>
+    </div>
+    <div class="profile-row">
+        <div class="profile-label">Dirección:</div>
+        <div class="profile-input">
+            <input type="text" [value]="user?.address" [readonly]="!isEditing">
+        </div>
+    </div>
+    <div class="profile-row">
+        <div class="profile-label">Contraseña:</div>
+        <div class="profile-input">
+            <input type="text" [value]="" [readonly]="!isEditing">
+        </div>
+    </div>
+</div>
+
+
+<div class="container d-flex justify-content-between">
+
+    <div class="user-list">
+        <h3 class="list-title">Lista de usuarios</h3>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Rol</th>
+                <th>Acción</th>
+            </tr>
+            @for (user of users; track $index) {
+            <tr>
+                <td>{{user.userId}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.role}}</td>
+                <td><button class="edit-btn">✎Edit</button> | <button class="edit-btn"(click)="deleteUser(user.userId)">Eliminar</button></td>
+            </tr>
+            }
+        </table>
+    </div>
+
+</div>
