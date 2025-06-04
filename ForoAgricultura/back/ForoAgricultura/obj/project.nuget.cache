@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "plEfV5JNs1Y=",
+  "dgSpecHash": "9wO+r19/Ayc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\villo\\Desktop\\foro-agricultura\\ForoAgricultura\\back\\ForoAgricultura\\ForoAgricultura.csproj",
+  "projectFilePath": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\ForoAgricultura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\villo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\villo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
