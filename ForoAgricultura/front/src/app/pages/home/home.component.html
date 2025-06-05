@@ -6,7 +6,7 @@
     <span *ngIf="authService.isAuthenticated()">¡Hola, {{ name }}!</span>
 
     <img *ngIf="authService.isAuthenticated()"
-         src="assets/user.png"
+         src="./assets/user.png"
          alt="user"
          class="user-icon clickable"
          width="40"
@@ -14,7 +14,7 @@
 
     <button *ngIf="!authService.isAuthenticated()" (click)="authClick()">Iniciar sesión</button>
     <img *ngIf="authService.isAuthenticated()"
-         src="assets/logout.png"
+         src="./assets/logout.png"
          alt="logout"
          width="40"
          class="logout-icon"
