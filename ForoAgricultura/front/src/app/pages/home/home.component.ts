@@ -6,7 +6,6 @@ import Swal from 'sweetalert2';
 import { ComentarioService } from '../../services/comentario.service';
 import { AuthService } from '../../services/auth.service';
 import { ComentarioDto } from '../../models/comentarioDto';
-import { Result } from '../../models/result';
 
 @Component({
   selector: 'app-home',
