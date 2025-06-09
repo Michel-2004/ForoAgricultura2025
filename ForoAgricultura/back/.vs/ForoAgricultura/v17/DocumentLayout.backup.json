@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|c:\\users\\villo\\desktop\\foroagricultura2025\\foroagricultura\\back\\foroagricultura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|solutionrelative:foroagricultura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|c:\\users\\villo\\desktop\\foroagricultura2025\\foroagricultura\\back\\foroagricultura\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|solutionrelative:foroagricultura\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|c:\\users\\villo\\desktop\\foroagricultura2025\\foroagricultura\\back\\foroagricultura\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66429EB6-3B88-43E0-BBF3-00A618655401}|ForoAgricultura\\ForoAgricultura.csproj|solutionrelative:foroagricultura\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +59,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Settings.cs",
+              "RelativeDocumentMoniker": "ForoAgricultura\\Settings.cs",
+              "ToolTip": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Settings.cs",
+              "RelativeToolTip": "ForoAgricultura\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:22:39.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\appsettings.json",
+              "RelativeDocumentMoniker": "ForoAgricultura\\appsettings.json",
+              "ToolTip": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\appsettings.json",
+              "RelativeToolTip": "ForoAgricultura\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T16:08:27.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Models\\Dtos\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Models\\Dtos\\UserProfileDto.cs",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ComentaryRepository.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Models\\DataBase\\Repositories\\Implementations\\ComentaryRepository.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Models\\DataBase\\Repositories\\Implementations\\ComentaryRepository.cs",
@@ -70,11 +104,12 @@
               "RelativeToolTip": "ForoAgricultura\\Models\\DataBase\\Repositories\\Implementations\\ComentaryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:51:08.039Z"
+              "WhenOpened": "2025-06-03T15:51:08.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Controllers\\UserController.cs",
@@ -87,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Models\\DataBase\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Models\\DataBase\\Entities\\User.cs",
@@ -99,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ComentaryDto.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Models\\Dtos\\ComentaryDto.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Models\\Dtos\\ComentaryDto.cs",
@@ -107,11 +142,12 @@
               "RelativeToolTip": "ForoAgricultura\\Models\\Dtos\\ComentaryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:18:22.295Z"
+              "WhenOpened": "2025-06-01T18:18:22.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Comentary.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Models\\DataBase\\Entities\\Comentary.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Models\\DataBase\\Entities\\Comentary.cs",
@@ -119,11 +155,12 @@
               "RelativeToolTip": "ForoAgricultura\\Models\\DataBase\\Entities\\Comentary.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:48:38.56Z"
+              "WhenOpened": "2025-06-01T17:48:38.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ComentaryController.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Controllers\\ComentaryController.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Controllers\\ComentaryController.cs",
@@ -135,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ComentaryService.cs",
               "DocumentMoniker": "C:\\Users\\villo\\Desktop\\ForoAgricultura2025\\ForoAgricultura\\back\\ForoAgricultura\\Services\\ComentaryService.cs",
               "RelativeDocumentMoniker": "ForoAgricultura\\Services\\ComentaryService.cs",
