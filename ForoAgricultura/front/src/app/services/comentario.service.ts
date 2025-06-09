@@ -7,7 +7,7 @@ import { ComentarioDto } from '../models/comentarioDto';
   providedIn: 'root'
 })
 export class ComentarioService {
-  private apiUrl = 'https://localhost:7225/api/Comentary';
+  private apiUrl = 'https://foroagricultura.runasp.net/api/Comentary';
 
   constructor(private http: HttpClient) {}
 

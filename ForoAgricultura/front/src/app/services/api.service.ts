@@ -95,10 +95,7 @@ export class ApiService {
 
   private getHeader(accept = null, contentType = null): HttpHeaders {
     let header: any = { 'Authorization': `Bearer ${this.jwt}` };
-    // Para cuando haya que poner un JWT
-
-    // console.log("JWT: ", this.jwt)
-
+  
     if (accept)
       header['Accept'] = accept;
 
@@ -146,8 +143,8 @@ export class ApiService {
   }
 
    // Elimina usuario
-  deleteUser(idUser: number): Observable<any> {
-    const url = (`${this.BASE_URL}User/deleteUser/${idUser}`);
+  deleteUser(userid: number): Observable<any> {
+    const url = (`${this.BASE_URL}User/deleteUser/${userid}`);
     return this.http.delete(url, { responseType: 'text' });
   }
 

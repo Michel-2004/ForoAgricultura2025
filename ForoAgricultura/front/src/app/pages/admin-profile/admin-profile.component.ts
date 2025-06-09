@@ -39,14 +39,14 @@ export class AdminProfileComponent implements OnInit {
     this.isEditing = !this.isEditing;
   }
 
-  async deleteUser(id: number) {
-    const confirmation = confirm(`¿Estás seguro de que deseas borrar el usuario con id ${id}?`);
-    console.log(confirmation)
-    if(confirmation){
-      console.log(id);
-      const remove = await this.apiService.deleteUser(id); // NO BORRA
-      console.log(remove)
-    } 
+    async deleteUser(id: number) {
+      const confirmation = confirm(`¿Estás seguro de que deseas borrar el usuario con id ${id}?`);
+      console.log(confirmation)
+      if(confirmation){
+        console.log(id);
+        const remove = await this.apiService.deleteUser(id); // NO BORRA
+        console.log(remove)
+      } 
 
   }
 }

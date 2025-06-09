@@ -1,4 +1,5 @@
 export const environment = {
-    apiUrl: "https://localhost:7225/api/",
+    apiUrl: "https://foroagricultura.runasp.net/api/",
     apiImg: "https://localhost:7225/"
 };
+ 
